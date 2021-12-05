@@ -70,6 +70,8 @@ URL / الرابط
 				"doctype": "File",
 				"file_name": filename,
 				"content": qr_image.getvalue(),
+				'attached_to_doctype': doc.doctype,
+				'attached_to_name': doc.name,
 				"is_private": 1
 			})
 
